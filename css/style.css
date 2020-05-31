@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ font-family:Tahoma, Geneva, sans-serif;
+	box-sizing:border-box;
+}
+
+html,body{
+	margin:0;
+	padding:0;
+}
+.container{
+	width:80%;
+	margin:auto;
+}
+
+header{
+	background:linear-gradient(#09F, #FFF, #309);
+	padding:3px;
+}
+
+div.head nav{
+	margin-left:auto;
+}
+
+div.head {
+	display:flex;
+	
+}
+nav ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display:flex;
+	
+}
+a{
+	text-decoration:none;
+	color:#FF3;
+}
+
+nav ul > li > a{
+	text-decoration:none;
+	color:#FF3;
+	display:block;
+	padding:15px 10px;
+	
+}
+header	 > h1{
+	text-align:center;
+	color:#FFF;
+	text-shadow:2px 3px 3px #333333;
+}
+	/* CSS ads*/
+	
+section.ads{
+	width:60%;
+	display:flex;
+	margin:0 auto;
+	text-align:center;
+	margin-top:5px;
+}
+
+section.ads > div {
+	width:25%;
+	background-color:rgba(0, 0, 255, 0.4);
+	padding-bottom:80px;
+	border:1px  dashed #000000;
+	margin-right:5px;
+	padding-top:5px;
+}
+
+
+/* CSS Content*/
+section.content{
+	width:80%;
+	background-color:#009;
+	margin:0 auto;
+	color:#FFF;
+	display:flex;
+	margin-top:5px;
+}
+
+section.content ul{
+	list-style-image:url(../images/bullet2.png);
+	list-style-position:inside;
+}
+section.content ul > li{
+	background-color:#F00;
+	margin-top:2px;
+	padding:6px;
+}
+section.content h2{
+	text-align:center;
+}
+
+section.category{
+	width:25%;
+	
+}
+
+section.news{
+	width:75%;
+	padding:10px;
+}
+
+div.subject{
+	border-bottom:2px solid #F00;
+}
+
+div.subject span{
+	background-color:#F00;
+	border-radius:15px 15px 0 0;
+	display:block;
+	width:25%;
+	padding:6px;
+	text-align:center;
+}
+
+ /*CSS post */
+ 
+div.post{
+	display:flex;
+	padding:10px;
+} 
+
+div.post > div.img{
+	width:30%;
+	padding:10px;
+	overflow:hidden;
+}
+
+div.post > div.para {
+	width:70%;
+	padding:5px;
+}
+
+div.post > div.img img{
+	max-width:100%;
+	transition:transform .9s;
+}
+div.post h4 {
+	margin:0;
+}
+
+.tag{
+	background-color:#06F;
+	border-radius:10px;
+	padding:2px 10px;
+	display:inline-block;
+	text-align:center;
+}
+div.post > div.img img:hover{
+	transform:scale(1.2);
+}
+
+/*footer*/
+
+footer {
+	display:flex;
+	background:linear-gradient(#0FF, #09C, #069);
+	padding:15px;
+	color:#FFF;
+}
+
+footer > div{
+	width:33.33%;
+	padding:15px;
+}
+
+footer img{
+	max-width:100%;
+}
+
+footer ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+footer h2{
+	text-decoration:underline;
+}
